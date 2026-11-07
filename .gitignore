@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+tourney.json
+results/

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NIM Chess Tournament</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>♞</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#/">♞ NIM Chess</a>
+    <select id="run-select" aria-label="Tournament run"></select>
+    <span id="live-badge" class="badge live" hidden>● live</span>
+    <a id="setup-link" class="setup-link" href="#/setup">＋ New tournament</a>
+    <nav id="tabs">
+      <a data-tab="bracket">Bracket</a>
+      <a data-tab="games">Games</a>
+      <a data-tab="standings">Standings</a>
+    </nav>
+  </header>
+  <main id="app"><p class="muted pad">Loading…</p></main>
+  <script src="setup.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
